@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | RS Services</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/services.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <i class="fa-solid fa-gem logo-icon"></i> RS<span class="logo-accent">Services</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="services.html" class="nav-link active">Services</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-cta" onclick="location.href='contact.html'">Get Consultation</button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-content">
+        <span class="section-tag">What We Offer</span>
+        <h1>Our <span class="hero-accent">Services</span></h1>
+        <p>End-to-end accounting and financial services designed to simplify your financial life and power your business growth.</p>
+      </div>
+    </div>
+    <div class="page-hero-wave">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f8f9ff"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- SERVICES GRID -->
+  <section class="section services-main">
+    <div class="container">
+      <div class="services-grid">
+
+        <div class="service-item" data-delay="0">
+          <div class="si-icon-wrap">
+            <i class="fa-solid fa-file-invoice si-icon"></i>
+          </div>
+          <div class="si-content">
+            <h3>Income Tax Filing</h3>
+            <p>Accurate, on-time ITR filing for individuals, HUFs, partnerships, and corporates. We handle all ITR forms — ITR-1 through ITR-7 — and ensure maximum eligible deductions under Sections 80C, 80D, and beyond.</p>
+            <ul class="si-features">
+              <li>Individual &amp; Business Returns</li>
+              <li>Advance Tax Computation</li>
+              <li>Tax Notice Handling</li>
+              <li>Refund Follow-up</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-item" data-delay="100">
+          <div class="si-icon-wrap">
+            <i class="fa-solid fa-file-signature si-icon"></i>
+          </div>
+          <div class="si-content">
+            <h3>GST Registration &amp; Filing</h3>
+            <p>Hassle-free GST registration and monthly/quarterly return filing. Stay compliant with all GST obligations — GSTR-1, GSTR-3B, GSTR-9 — and avoid costly penalties.</p>
+            <ul class="si-features">
+              <li>GST Registration</li>
+              <li>Monthly &amp; Quarterly Returns</li>
+              <li>Annual GST Audit</li>
+              <li>ITC Reconciliation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-item" data-delay="200">
+          <div class="si-icon-wrap">
+            <i class="fa-solid fa-magnifying-glass-chart si-icon"></i>
+          </div>
+          <div class="si-content">
+            <h3>Auditing Services</h3>
+            <p>Independent statutory, tax, and internal audits providing you with reliable financial statements and actionable insights to strengthen your business controls.</p>
+            <ul class="si-features">
+              <li>Statutory Audit</li>
+              <li>Tax Audit (Sec 44AB)</li>
+              <li>Internal Audit</li>
+              <li>Stock &amp; Compliance Audit</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-item" data-delay="0">
+          <div class="si-icon-wrap">
+            <i class="fa-solid fa-coins si-icon"></i>
+          </div>
+          <div class="si-content">
+            <h3>Financial Planning</h3>
+            <p>Personalised investment and financial planning to help you build wealth, plan for retirement, and achieve your life goals — with strategies tailored to your risk profile and timeline.</p>
+            <ul class="si-features">
+              <li>Investment Advisory</li>
+              <li>Retirement Planning</li>
+              <li>Insurance Planning</li>
+              <li>Goal-Based Wealth Building</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-item" data-delay="100">
+          <div class="si-icon-wrap">
+            <i class="fa-solid fa-handshake si-icon"></i>
+          </div>
+          <div class="si-content">
+            <h3>Business Consultancy</h3>
+            <p>Strategic financial and business advisory to help your company make smarter decisions. From profitability analysis to cost optimisation — we are your financial growth partner.</p>
+            <ul class="si-features">
+              <li>Business Structuring</li>
+              <li>Cost &amp; Profitability Analysis</li>
+              <li>Cash Flow Management</li>
+              <li>Funding &amp; Loan Guidance</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-item" data-delay="200">
+          <div class="si-icon-wrap">
+            <i class="fa-solid fa-book si-icon"></i>
+          </div>
+          <div class="si-content">
+            <h3>Bookkeeping</h3>
+            <p>Organised, accurate, and up-to-date financial records maintained on a monthly basis. Know exactly where your money is at all times, with clean books ready for tax season.</p>
+            <ul class="si-features">
+              <li>Monthly P&amp;L Statements</li>
+              <li>Bank Reconciliation</li>
+              <li>Accounts Payable/Receivable</li>
+              <li>Payroll Processing</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-item" data-delay="0">
+          <div class="si-icon-wrap">
+            <i class="fa-solid fa-building si-icon"></i>
+          </div>
+          <div class="si-content">
+            <h3>Company Registration</h3>
+            <p>Complete incorporation support for Private Limited Companies, LLPs, One Person Companies, and more. From name approval to Certificate of Incorporation — fully handled.</p>
+            <ul class="si-features">
+              <li>Pvt Ltd &amp; LLP Incorporation</li>
+              <li>ROC Compliance Filing</li>
+              <li>Director KYC &amp; DIN</li>
+              <li>Annual Returns (MCA)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-item" data-delay="100">
+          <div class="si-icon-wrap">
+            <i class="fa-solid fa-chart-bar si-icon"></i>
+          </div>
+          <div class="si-content">
+            <h3>Management Accounting</h3>
+            <p>Detailed management reports and MIS dashboards that give business leaders real-time financial visibility to drive strategic decisions with confidence.</p>
+            <ul class="si-features">
+              <li>MIS Reporting</li>
+              <li>Budget vs Actual Analysis</li>
+              <li>Break-even Analysis</li>
+              <li>KPI Dashboards</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-item" data-delay="200">
+          <div class="si-icon-wrap">
+            <i class="fa-solid fa-scale-balanced si-icon"></i>
+          </div>
+          <div class="si-content">
+            <h3>Legal &amp; Regulatory Compliance</h3>
+            <p>Stay ahead of regulatory requirements with expert support for FEMA, PF, ESI, and other statutory compliances — so you can focus on growing your business worry-free.</p>
+            <ul class="si-features">
+              <li>PF &amp; ESI Registration &amp; Filing</li>
+              <li>FEMA Compliance</li>
+              <li>Labour Law Compliance</li>
+              <li>Shops &amp; Establishment</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- VISUAL SPLIT -->
+  <section class="services-visual-split">
+    <div class="svs-image">
+      <img src="images/tax-documents.jpg" alt="Tax and accounting at work" loading="lazy" />
+    </div>
+    <div class="svs-content">
+      <span class="section-tag">Why RS Services</span>
+      <h2>Accurate. Compliant.<br /><span class="hero-accent">On Time.</span></h2>
+      <p>We combine deep expertise in Indian accounting law with modern tools to deliver financial services that are precise, transparent, and built around your goals.</p>
+      <ul class="svs-list">
+        <li><i class="fa-solid fa-circle-check"></i> CMA-certified professional with 12+ years experience</li>
+        <li><i class="fa-solid fa-circle-check"></i> Zero-penalty compliance track record</li>
+        <li><i class="fa-solid fa-circle-check"></i> End-to-end support — from filing to follow-up</li>
+        <li><i class="fa-solid fa-circle-check"></i> Transparent pricing, no surprise fees</li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary">Talk to an Expert</a>
+    </div>
+    <div class="svs-image svs-image-2">
+      <img src="images/coins-stacking.jpg" alt="Investment and financial growth" loading="lazy" />
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section process-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">How It Works</span>
+        <h2 class="section-title">Our Simple Process</h2>
+      </div>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="ps-icon"><i class="fa-solid fa-phone-volume"></i></div>
+          <div class="ps-num">01</div>
+          <h4>Consultation</h4>
+          <p>Book a free call. Tell us your needs. We listen and understand your situation.</p>
+        </div>
+        <div class="process-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        <div class="process-step">
+          <div class="ps-icon"><i class="fa-solid fa-file-lines"></i></div>
+          <div class="ps-num">02</div>
+          <h4>Proposal</h4>
+          <p>We send a clear scope and transparent pricing — no hidden fees.</p>
+        </div>
+        <div class="process-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        <div class="process-step">
+          <div class="ps-icon"><i class="fa-solid fa-gears"></i></div>
+          <div class="ps-num">03</div>
+          <h4>Execution</h4>
+          <p>Our team gets to work with precision, keeping you updated throughout.</p>
+        </div>
+        <div class="process-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        <div class="process-step">
+          <div class="ps-icon"><i class="fa-solid fa-circle-check"></i></div>
+          <div class="ps-num">04</div>
+          <h4>Delivery</h4>
+          <p>Receive your results on time, with a full handover and support for any follow-up.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Not sure which service you need?</h2>
+      <p>Let's talk. A free 30-minute consultation will clarify everything.</p>
+      <a href="contact.html" class="btn btn-white">Book Free Consultation</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo"><i class="fa-solid fa-gem logo-icon"></i> RS<span class="logo-accent">Services</span></a>
+        <p>Your trusted partner for all accounting and financial needs. Certified. Reliable. Results-driven.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><i class="fa-solid fa-envelope fa-fw"></i> uppala.madhu30@gmail.com</p>
+        <p><i class="fa-solid fa-phone fa-fw"></i> +91 62810 97655</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 RS Services. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/services.js"></script>
+</body>
+</html>

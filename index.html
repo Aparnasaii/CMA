@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RS Services | Accounting & Financial Services</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <i class="fa-solid fa-gem logo-icon"></i> RS<span class="logo-accent">Services</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-cta" onclick="location.href='contact.html'">Get Consultation</button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Certified Management Accountant</div>
+      <h1 class="hero-title">Financial Clarity.<br /><span class="hero-accent">Expert Guidance.</span></h1>
+      <p class="hero-sub">Trusted accounting and financial consulting services for individuals and businesses. From tax planning to audit support — your financial success is our mission.</p>
+      <div class="hero-actions">
+        <a href="services.html" class="btn btn-primary">Explore Services</a>
+        <a href="contact.html" class="btn btn-outline">Book a Call</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card card-1">
+        <div class="card-icon"><i class="fa-solid fa-chart-line"></i></div>
+        <p>Portfolio Growth</p>
+        <strong>+24.6%</strong>
+      </div>
+      <div class="hero-card card-2">
+        <div class="card-icon"><i class="fa-solid fa-piggy-bank"></i></div>
+        <p>Tax Savings</p>
+        <strong>Rs. 3.2L Saved</strong>
+      </div>
+      <div class="hero-card card-3">
+        <div class="card-icon"><i class="fa-solid fa-award"></i></div>
+        <p>CMA Certified</p>
+        <strong>Top 5%</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES CAROUSEL -->
+  <section class="section carousel-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">Our Core Services</h2>
+        <p class="section-sub">Comprehensive financial solutions tailored to your needs</p>
+      </div>
+      <div class="carousel-wrapper">
+        <button class="carousel-btn prev" id="prevBtn" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></button>
+        <div class="carousel-track-container">
+          <div class="carousel-track" id="carouselTrack">
+            <div class="carousel-slide">
+              <div class="service-card">
+                <div class="sc-icon"><i class="fa-solid fa-file-invoice"></i></div>
+                <h3>Tax Filing</h3>
+                <p>Accurate and timely income tax returns, GST filing, and tax compliance for individuals and corporates.</p>
+                <a href="services.html" class="sc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <div class="service-card">
+                <div class="sc-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                <h3>Auditing</h3>
+                <p>Independent statutory and internal audits to ensure accuracy, compliance, and business transparency.</p>
+                <a href="services.html" class="sc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <div class="service-card">
+                <div class="sc-icon"><i class="fa-solid fa-coins"></i></div>
+                <h3>Financial Planning</h3>
+                <p>Strategic investment, retirement, and wealth management plans built around your personal goals.</p>
+                <a href="services.html" class="sc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <div class="service-card">
+                <div class="sc-icon"><i class="fa-solid fa-handshake"></i></div>
+                <h3>Consultancy</h3>
+                <p>Expert business and financial advisory for startups, SMEs, and growing enterprises.</p>
+                <a href="services.html" class="sc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <div class="service-card">
+                <div class="sc-icon"><i class="fa-solid fa-book"></i></div>
+                <h3>Bookkeeping</h3>
+                <p>Clean, organised, and up-to-date financial records so you always know where your money stands.</p>
+                <a href="services.html" class="sc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <div class="service-card">
+                <div class="sc-icon"><i class="fa-solid fa-building"></i></div>
+                <h3>Company Registration</h3>
+                <p>End-to-end support for company incorporation, ROC filings, and compliance management.</p>
+                <a href="services.html" class="sc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-btn next" id="nextBtn" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="section why-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Why Us</span>
+        <h2 class="section-title">The RS Services Difference</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-item">
+          <div class="why-icon"><i class="fa-solid fa-bullseye"></i></div>
+          <h4>Precision-Focused</h4>
+          <p>Every figure, every form, every deadline — handled with meticulous attention to detail.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-icon"><i class="fa-solid fa-lock"></i></div>
+          <h4>100% Confidential</h4>
+          <p>Your financial data is handled with the highest standards of privacy and security.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-icon"><i class="fa-solid fa-bolt"></i></div>
+          <h4>Fast Turnaround</h4>
+          <p>No waiting weeks. We deliver results efficiently without compromising quality.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-icon"><i class="fa-solid fa-user-check"></i></div>
+          <h4>Personalised Service</h4>
+          <p>One-on-one attention tailored specifically to your financial situation and goals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGE SLIDER -->
+  <section class="imgslider-section" id="imgSlider">
+    <div class="slider-track">
+
+      <div class="slide active" data-index="0">
+        <img src="images/tax-documents.jpg" alt="Tax Filing Services" />
+        <div class="slide-overlay">
+          <div class="slide-content">
+            <div class="slide-tag"><i class="fa-solid fa-file-invoice"></i> Tax Filing</div>
+            <h2>Accurate Returns.<br />Zero Stress.</h2>
+            <p>Expert ITR and GST filing for individuals and businesses — on time, every time.</p>
+            <a href="services.html" class="btn btn-primary">Explore Services</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide" data-index="1">
+        <img src="images/coins-stacking.jpg" alt="Investment Advisory" />
+        <div class="slide-overlay">
+          <div class="slide-content">
+            <div class="slide-tag"><i class="fa-solid fa-coins"></i> Investment Advisory</div>
+            <h2>Grow Your Wealth.<br />Strategically.</h2>
+            <p>Personalised financial planning built around your goals, timeline, and risk appetite.</p>
+            <a href="services.html" class="btn btn-primary">Explore Services</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide" data-index="2">
+        <img src="images/planner.jpg" alt="Financial Planning" />
+        <div class="slide-overlay">
+          <div class="slide-content">
+            <div class="slide-tag"><i class="fa-solid fa-calendar-days"></i> Financial Planning</div>
+            <h2>Every Rupee.<br />Purposefully Planned.</h2>
+            <p>Retirement, insurance, investments — a complete financial roadmap crafted for you.</p>
+            <a href="services.html" class="btn btn-primary">Explore Services</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide" data-index="3">
+        <img src="images/calculator-coins.jpg" alt="Accounting Services" />
+        <div class="slide-overlay">
+          <div class="slide-content">
+            <div class="slide-tag"><i class="fa-solid fa-calculator"></i> Accounting</div>
+            <h2>Clean Books.<br />Clear Decisions.</h2>
+            <p>Bookkeeping, MIS reports, and audits — your financials, always in order.</p>
+            <a href="services.html" class="btn btn-primary">Explore Services</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="slider-arrow slider-prev" id="sliderPrev" aria-label="Previous">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <button class="slider-arrow slider-next" id="sliderNext" aria-label="Next">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+    <!-- Dots -->
+    <div class="slider-dots" id="sliderDots">
+      <button class="sdot active" data-slide="0" aria-label="Slide 1"></button>
+      <button class="sdot" data-slide="1" aria-label="Slide 2"></button>
+      <button class="sdot" data-slide="2" aria-label="Slide 3"></button>
+      <button class="sdot" data-slide="3" aria-label="Slide 4"></button>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="slider-progress" id="sliderProgress">
+      <div class="slider-progress-bar" id="sliderProgressBar"></div>
+    </div>
+
+  </section>
+
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Ready to take control of your finances?</h2>
+      <p>Book a free 30-minute consultation today. No commitment required.</p>
+      <a href="contact.html" class="btn btn-white">Get Started Free</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo"><i class="fa-solid fa-gem logo-icon"></i> RS<span class="logo-accent">Services</span></a>
+        <p>Your trusted partner for all accounting and financial needs. Certified. Reliable. Results-driven.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><i class="fa-solid fa-envelope fa-fw"></i> uppala.madhu30@gmail.com</p>
+        <p><i class="fa-solid fa-phone fa-fw"></i> +91 62810 97655</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 RS Services. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/lazyload.js"></script>
+  <script src="js/imgslider.js"></script>
+</body>
+</html>
